@@ -27,11 +27,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/nubia/nx512j/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/nubia/nx512j/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/nubia/nx512j/proprietary/bin/cnd:system/bin/cnd \
-    vendor/nubia/nx512j/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/nubia/nx512j/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/nubia/nx512j/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/nubia/nx512j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/nubia/nx512j/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/nubia/nx512j/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/nubia/nx512j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -42,14 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/bin/radish:system/bin/radish \
     vendor/nubia/nx512j/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/nubia/nx512j/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/nubia/nx512j/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/nubia/nx512j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/nubia/nx512j/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/nubia/nx512j/proprietary/etc/capability.xml:system/etc/capability.xml \
-    vendor/nubia/nx512j/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/nubia/nx512j/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/nubia/nx512j/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/nubia/nx512j/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/nubia/nx512j/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/nubia/nx512j/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/nubia/nx512j/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -68,30 +58,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/nubia/nx512j/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/nubia/nx512j/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
-    vendor/nubia/nx512j/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/nubia/nx512j/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/nubia/nx512j/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/nubia/nx512j/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/nubia/nx512j/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/nubia/nx512j/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/nubia/nx512j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/nubia/nx512j/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/nubia/nx512j/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/nubia/nx512j/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/nubia/nx512j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/nubia/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/nubia/nx512j/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/nubia/nx512j/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/nubia/nx512j/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/nubia/nx512j/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/nubia/nx512j/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/nubia/nx512j/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/nubia/nx512j/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
-    vendor/nubia/nx512j/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/nubia/nx512j/proprietary/framework/dpm.jar:system/framework/dpm.jar \
-    vendor/nubia/nx512j/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/nubia/nx512j/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/nubia/nx512j/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/nubia/nx512j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/nubia/nx512j/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/nubia/nx512j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -141,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/nubia/nx512j/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/nubia/nx512j/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/nubia/nx512j/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/nubia/nx512j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/nubia/nx512j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0090_Generic_I2C_NCD_Unsigned_configdata.ncd \
@@ -207,16 +176,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib/libchromatix_imx234_snapshot.so:system/vendor/lib/libchromatix_imx234_snapshot.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libchromatix_imx234_snapshot_nightmode.so:system/vendor/lib/libchromatix_imx234_snapshot_nightmode.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libchromatix_imx234_snapshot_nightmode_1.so:system/vendor/lib/libchromatix_imx234_snapshot_nightmode_1.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -231,9 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
@@ -285,22 +243,15 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
@@ -349,10 +300,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libasn1cper.so:system/vendor/lib64/libasn1cper.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
@@ -372,24 +319,15 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libchromatix_imx234_snapshot.so:system/vendor/lib64/libchromatix_imx234_snapshot.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libchromatix_imx234_snapshot_nightmode.so:system/vendor/lib64/libchromatix_imx234_snapshot_nightmode.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libchromatix_imx234_snapshot_nightmode_1.so:system/vendor/lib64/libchromatix_imx234_snapshot_nightmode_1.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
@@ -398,12 +336,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
@@ -431,7 +363,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
@@ -449,15 +380,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/nubia/nx512j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
 
@@ -469,8 +393,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     colorservice \
     shutdownlistener \
-    CNEService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
