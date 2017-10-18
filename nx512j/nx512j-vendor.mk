@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/nubia/nx512j/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/nubia/nx512j/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/nubia/nx512j/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/nubia/nx512j/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -63,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nubia/nx512j/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/nubia/nx512j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
-    vendor/nubia/nx512j/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/nubia/nx512j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/nubia/nx512j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nubia/nx512j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -78,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/lib/libobjectclear_nubia.so:system/lib/libobjectclear_nubia.so \
     vendor/nubia/nx512j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/nx512j/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/nubia/nx512j/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/nubia/nx512j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
     vendor/nubia/nx512j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
     vendor/nubia/nx512j/proprietary/lib64/libFNVfbEngineLib.so:system/lib64/libFNVfbEngineLib.so \
@@ -162,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libchromatix_imx179_common.so:system/vendor/lib/libchromatix_imx179_common.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libchromatix_imx179_default_video.so:system/vendor/lib/libchromatix_imx179_default_video.so \
     vendor/nubia/nx512j/proprietary/vendor/lib/libchromatix_imx179_preview.so:system/vendor/lib/libchromatix_imx179_preview.so \
@@ -305,6 +303,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/nubia/nx512j/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libchromatix_imx179_common.so:system/vendor/lib64/libchromatix_imx179_common.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libchromatix_imx179_default_video.so:system/vendor/lib64/libchromatix_imx179_default_video.so \
     vendor/nubia/nx512j/proprietary/vendor/lib64/libchromatix_imx179_preview.so:system/vendor/lib64/libchromatix_imx179_preview.so \
