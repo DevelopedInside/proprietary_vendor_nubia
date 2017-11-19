@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Headset_cal.acdb \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_Speaker_cal.acdb \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_workspaceFile.qwsp:system/etc/acdbdata/QRD/msm8998-skuk-tavil-snd-card/QRD_SKUK_WCD9340_workspaceFile.qwsp \
+    vendor/nubia/nx563j/proprietary/etc/calib.cfg:system/etc/calib.cfg \
     vendor/nubia/nx563j/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/nubia/nx563j/proprietary/etc/camera/imx318_chromatix.xml:system/etc/camera/imx318_chromatix.xml \
     vendor/nubia/nx563j/proprietary/etc/camera/imx362_chromatix.xml:system/etc/camera/imx362_chromatix.xml \
