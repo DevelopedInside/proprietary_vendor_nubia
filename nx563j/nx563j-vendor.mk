@@ -70,6 +70,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/etc/firmware/ipa_fws.b03:system/etc/firmware/ipa_fws.b03 \
     vendor/nubia/nx563j/proprietary/etc/firmware/ipa_fws.b04:system/etc/firmware/ipa_fws.b04 \
     vendor/nubia/nx563j/proprietary/etc/firmware/ipa_fws.mdt:system/etc/firmware/ipa_fws.mdt \
+    vendor/nubia/nx563j/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/nubia/nx563j/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/nubia/nx563j/proprietary/etc/firmware/nubia_tp_jdi_fw.img:system/etc/firmware/nubia_tp_jdi_fw.img \
     vendor/nubia/nx563j/proprietary/etc/qdcm_calib_data_jdi_r63452_1080p_5p5_mipi_cmd_panel.xml:system/etc/qdcm_calib_data_jdi_r63452_1080p_5p5_mipi_cmd_panel.xml \
     vendor/nubia/nx563j/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
