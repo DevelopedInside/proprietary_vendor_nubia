@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/nubia/nx563j/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/nubia/nx563j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/nubia/nx563j/proprietary/bin/tas2555-ftc:system/bin/tas2555-ftc \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -89,6 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/libNubiaImageAlgorithm.so:system/lib/libNubiaImageAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib/libNubiaxmptoolkit.so:system/lib/libNubiaxmptoolkit.so \
     vendor/nubia/nx563j/proprietary/lib/libPrettyWaterMark.so:system/lib/libPrettyWaterMark.so \
+    vendor/nubia/nx563j/proprietary/lib/libTAS2555ftc.so:system/lib/libTAS2555ftc.so \
     vendor/nubia/nx563j/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/nubia/nx563j/proprietary/lib/libalDU_Utility.so:system/lib/libalDU_Utility.so \
     vendor/nubia/nx563j/proprietary/lib/libalParseOTP.so:system/lib/libalParseOTP.so \
@@ -132,6 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libNubiaImageAlgorithm.so:system/lib64/libNubiaImageAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libNubiaxmptoolkit.so:system/lib64/libNubiaxmptoolkit.so \
     vendor/nubia/nx563j/proprietary/lib64/libPrettyWaterMark.so:system/lib64/libPrettyWaterMark.so \
+    vendor/nubia/nx563j/proprietary/lib64/libTAS2555ftc.so:system/lib64/libTAS2555ftc.so \
     vendor/nubia/nx563j/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/nubia/nx563j/proprietary/lib64/libalParseOTP.so:system/lib64/libalParseOTP.so \
     vendor/nubia/nx563j/proprietary/lib64/libalRnB.so:system/lib64/libalRnB.so \
