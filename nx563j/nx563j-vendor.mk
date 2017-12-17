@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/nubia/nx563j/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/nubia/nx563j/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/nubia/nx563j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/nubia/nx563j/proprietary/bin/tas2555-ftc:system/bin/tas2555-ftc \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -88,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/libBurstProcessJni.so:system/lib/libBurstProcessJni.so \
     vendor/nubia/nx563j/proprietary/lib/libIndependenceUtil.so:system/lib/libIndependenceUtil.so \
     vendor/nubia/nx563j/proprietary/lib/libNubiaImageAlgorithm.so:system/lib/libNubiaImageAlgorithm.so \
+    vendor/nubia/nx563j/proprietary/lib/libNubiaImageAlgorithmBSP.so:system/lib/libNubiaImageAlgorithmBSP.so \
     vendor/nubia/nx563j/proprietary/lib/libNubiaxmptoolkit.so:system/lib/libNubiaxmptoolkit.so \
     vendor/nubia/nx563j/proprietary/lib/libPrettyWaterMark.so:system/lib/libPrettyWaterMark.so \
     vendor/nubia/nx563j/proprietary/lib/libTAS2555ftc.so:system/lib/libTAS2555ftc.so \
@@ -118,6 +118,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/libmulti_exposure.so:system/lib/libmulti_exposure.so \
     vendor/nubia/nx563j/proprietary/lib/libnubia_clone.so:system/lib/libnubia_clone.so \
     vendor/nubia/nx563j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
+    vendor/nubia/nx563j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
+    vendor/nubia/nx563j/proprietary/lib/libnubia_servers.so:system/lib/libnubia_servers.so \
     vendor/nubia/nx563j/proprietary/lib/libnubia_trajectory.so:system/lib/libnubia_trajectory.so \
     vendor/nubia/nx563j/proprietary/lib/libnubiajpeg.so:system/lib/libnubiajpeg.so \
     vendor/nubia/nx563j/proprietary/lib/libpanoramahelper.so:system/lib/libpanoramahelper.so \
@@ -132,6 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libBurstProcessJni.so:system/lib64/libBurstProcessJni.so \
     vendor/nubia/nx563j/proprietary/lib64/libIndependenceUtil.so:system/lib64/libIndependenceUtil.so \
     vendor/nubia/nx563j/proprietary/lib64/libNubiaImageAlgorithm.so:system/lib64/libNubiaImageAlgorithm.so \
+    vendor/nubia/nx563j/proprietary/lib64/libNubiaImageAlgorithmBSP.so:system/lib64/libNubiaImageAlgorithmBSP.so \
     vendor/nubia/nx563j/proprietary/lib64/libNubiaxmptoolkit.so:system/lib64/libNubiaxmptoolkit.so \
     vendor/nubia/nx563j/proprietary/lib64/libPrettyWaterMark.so:system/lib64/libPrettyWaterMark.so \
     vendor/nubia/nx563j/proprietary/lib64/libTAS2555ftc.so:system/lib64/libTAS2555ftc.so \
@@ -145,6 +148,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libarcsoft_beautyshot_video_algorithm.so:system/lib64/libarcsoft_beautyshot_video_algorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libarcsoft_dualcam_refocus.so:system/lib64/libarcsoft_dualcam_refocus.so \
     vendor/nubia/nx563j/proprietary/lib64/libarcsoft_night_shot.so:system/lib64/libarcsoft_night_shot.so \
+    vendor/nubia/nx563j/proprietary/lib64/libavcodec.so:system/lib64/libavcodec.so \
+    vendor/nubia/nx563j/proprietary/lib64/libavfilter.so:system/lib64/libavfilter.so \
+    vendor/nubia/nx563j/proprietary/lib64/libavformat.so:system/lib64/libavformat.so \
+    vendor/nubia/nx563j/proprietary/lib64/libavutil.so:system/lib64/libavutil.so \
     vendor/nubia/nx563j/proprietary/lib64/libbuffer_manager.so:system/lib64/libbuffer_manager.so \
     vendor/nubia/nx563j/proprietary/lib64/libdngcreator.so:system/lib64/libdngcreator.so \
     vendor/nubia/nx563j/proprietary/lib64/libhistutil.so:system/lib64/libhistutil.so \
@@ -155,6 +162,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_delay_recorder.so:system/lib64/libnubia_delay_recorder.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_effect.so:system/lib64/libnubia_effect.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_gallery_player.so:system/lib64/libnubia_gallery_player.so \
+    vendor/nubia/nx563j/proprietary/lib64/libnubia_media_player.so:system/lib64/libnubia_media_player.so \
+    vendor/nubia/nx563j/proprietary/lib64/libnubia_runtime.so:system/lib64/libnubia_runtime.so \
+    vendor/nubia/nx563j/proprietary/lib64/libnubia_servers.so:system/lib64/libnubia_servers.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_trajectory.so:system/lib64/libnubia_trajectory.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubiajpeg.so:system/lib64/libnubiajpeg.so \
     vendor/nubia/nx563j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
