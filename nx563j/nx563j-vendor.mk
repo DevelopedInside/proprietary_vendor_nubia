@@ -80,6 +80,18 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
     vendor/nubia/nx563j/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/nubia/nx563j/proprietary/lib/hw/fingerprint.msm8998.so:system/lib/hw/fingerprint.msm8998.so \
+	vendor/nubia/nx563j/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
+	vendor/nubia/nx563j/proprietary/lib/modules/br_netfilter.ko:system/lib/modules/br_netfilter.ko \
+	vendor/nubia/nx563j/proprietary/lib/modules/mpq-adapter.ko:system/lib/modules/mpq-adapter.ko \
+	vendor/nubia/nx563j/proprietary/lib/modules/mpq-dmx-hw-plugin.ko:system/lib/modules/mpq-dmx-hw-plugin.ko \
+	vendor/nubia/nx563j/proprietary/lib/modules/multi_channel_hook.ko:system/lib/modules/multi_channel_hook.ko \
+	vendor/nubia/nx563j/proprietary/lib/modules/rdbg.ko:system/lib/modules/rdbg.ko \
+	vendor/nubia/nx563j/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
+	vendor/nubia/nx563j/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko \
+	vendor/nubia/nx563j/proprietary/lib/modules/tspp.ko:system/lib/modules/tspp.ko \
+	vendor/nubia/nx563j/proprietary/lib/modules/ufs_test.ko:system/lib/modules/ufs_test.ko \
+	vendor/nubia/nx563j/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
+	vendor/nubia/nx563j/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/nubia/nx563j/proprietary/lib/libAlgorithm.so:system/lib/libAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib/libArcsoftAlgorithm.so:system/lib/libArcsoftAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib/libBigAperture.so:system/lib/libBigAperture.so \
@@ -127,6 +139,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/nx563j/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/nubia/nx563j/proprietary/lib64/hw/fingerprint.msm8998.so:system/lib64/hw/fingerprint.msm8998.so \
+	vendor/nubia/nx563j/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
+	vendor/nubia/nx563j/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/nubia/nx563j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libArcsoftAlgorithm.so:system/lib64/libArcsoftAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libBigAperture.so:system/lib64/libBigAperture.so \
