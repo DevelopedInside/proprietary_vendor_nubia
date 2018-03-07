@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/nubia/nx563j/proprietary/lib/hw/fingerprint.msm8998.so:system/lib/hw/fingerprint.msm8998.so \
     vendor/nubia/nx563j/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
-    vendor/nubia/nx563j/proprietary/lib/hw64/vibrator.default.so:system/lib/hw64/vibrator.default.so \
     vendor/nubia/nx563j/proprietary/lib/libAlgorithm.so:system/lib/libAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib/libArcsoftAlgorithm.so:system/lib/libArcsoftAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib/libBigAperture.so:system/lib/libBigAperture.so \
@@ -135,6 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/nubia/nx563j/proprietary/lib64/hw/fingerprint.msm8998.so:system/lib64/hw/fingerprint.msm8998.so \
     vendor/nubia/nx563j/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
+    vendor/nubia/nx563j/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
     vendor/nubia/nx563j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libAltek_Alignment.so:system/lib64/libAltek_Alignment.so \
     vendor/nubia/nx563j/proprietary/lib64/libArcsoftAlgorithm.so:system/lib64/libArcsoftAlgorithm.so \
