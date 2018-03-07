@@ -128,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/etc/powerhint.xml:system/etc/powerhint.xml \
     vendor/nubia/msm8998-common/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/nubia/msm8998-common/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/nubia/msm8998-common/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/nubia/msm8998-common/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/nubia/msm8998-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/nubia/msm8998-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
