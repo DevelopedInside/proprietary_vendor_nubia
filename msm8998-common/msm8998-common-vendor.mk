@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/bin/radish:system/bin/radish \
     vendor/nubia/msm8998-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/nubia/msm8998-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/nubia/msm8998-common/proprietary/bin/tas2555-ftc:system/bin/tas2555-ftc \
     vendor/nubia/msm8998-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/nubia/msm8998-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/nubia/msm8998-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
@@ -108,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/nubia/msm8998-common/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/nubia/msm8998-common/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/nubia/msm8998-common/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
     vendor/nubia/msm8998-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/nubia/msm8998-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/nubia/msm8998-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -145,10 +147,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/nubia/msm8998-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/nubia/msm8998-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/nubia/msm8998-common/proprietary/lib/libTAS2555ftc.so:system/lib/libTAS2555ftc.so \
     vendor/nubia/msm8998-common/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/nubia/msm8998-common/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/nubia/msm8998-common/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/nubia/msm8998-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
+    vendor/nubia/msm8998-common/proprietary/lib64/libTAS2555ftc.so:system/lib64/libTAS2555ftc.so \
     vendor/nubia/msm8998-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/nubia/msm8998-common/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/nubia/msm8998-common/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
@@ -160,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/nubia/msm8998-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/nubia/msm8998-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/nubia/msm8998-common/proprietary/vendor/etc/dolby/dax-default.xml:system/vendor/etc/dolby/dax-default.xml \
     vendor/nubia/msm8998-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -317,9 +322,11 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:system/vendor/lib/rfsa/adsp/libvpp_svc_skel.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
+    vendor/nubia/msm8998-common/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/nubia/msm8998-common/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \

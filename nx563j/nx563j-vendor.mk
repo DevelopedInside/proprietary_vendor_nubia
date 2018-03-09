@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/nubia/nx563j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/nubia/nx563j/proprietary/bin/tas2555-ftc:system/bin/tas2555-ftc \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -61,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/etc/firmware/miniBoot.bin:system/etc/firmware/miniBoot.bin \
     vendor/nubia/nx563j/proprietary/etc/firmware/nubia_tp_jdi_fw.img:system/etc/firmware/nubia_tp_jdi_fw.img \
     vendor/nubia/nx563j/proprietary/etc/firmware/sub_alOtp.bin:system/etc/firmware/sub_alOtp.bin \
-    vendor/nubia/nx563j/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
     vendor/nubia/nx563j/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/nubia/nx563j/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/nubia/nx563j/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
@@ -81,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/libNubiaImageAlgorithmPhotoEditor.so:system/lib/libNubiaImageAlgorithmPhotoEditor.so \
     vendor/nubia/nx563j/proprietary/lib/libNubiaxmptoolkit.so:system/lib/libNubiaxmptoolkit.so \
     vendor/nubia/nx563j/proprietary/lib/libPrettyWaterMark.so:system/lib/libPrettyWaterMark.so \
-    vendor/nubia/nx563j/proprietary/lib/libTAS2555ftc.so:system/lib/libTAS2555ftc.so \
     vendor/nubia/nx563j/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/nubia/nx563j/proprietary/lib/libalDU_Utility.so:system/lib/libalDU_Utility.so \
     vendor/nubia/nx563j/proprietary/lib/libalParseOTP.so:system/lib/libalParseOTP.so \
@@ -147,7 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libNubiaImageAlgorithmBSP.so:system/lib64/libNubiaImageAlgorithmBSP.so \
     vendor/nubia/nx563j/proprietary/lib64/libNubiaxmptoolkit.so:system/lib64/libNubiaxmptoolkit.so \
     vendor/nubia/nx563j/proprietary/lib64/libPrettyWaterMark.so:system/lib64/libPrettyWaterMark.so \
-    vendor/nubia/nx563j/proprietary/lib64/libTAS2555ftc.so:system/lib64/libTAS2555ftc.so \
     vendor/nubia/nx563j/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/nubia/nx563j/proprietary/lib64/libalParseOTP.so:system/lib64/libalParseOTP.so \
     vendor/nubia/nx563j/proprietary/lib64/libalRnB.so:system/lib64/libalRnB.so \
@@ -183,7 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
     vendor/nubia/nx563j/proprietary/lib64/libproductinfo.so:system/lib64/libproductinfo.so \
     vendor/nubia/nx563j/proprietary/lib64/libteeclientjni.so:system/lib64/libteeclientjni.so \
-    vendor/nubia/nx563j/proprietary/vendor/etc/dolby/dax-default.xml:system/vendor/etc/dolby/dax-default.xml \
     vendor/nubia/nx563j/proprietary/vendor/firmware/BCM20797A1_001.002.015.2562.0011_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20797A1_001.002.015.2562.0011_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/BCM20797B0_002.001.043.2562.0007_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0007_I2C_configdata.ncd:system/vendor/firmware/BCM20797B0_002.001.043.2562.0007_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0007_I2C_configdata.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/BCM20797B0_002.001.043.2562.0010_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0010_I2C_configdata.ncd:system/vendor/firmware/BCM20797B0_002.001.043.2562.0010_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0010_I2C_configdata.ncd \
@@ -507,8 +502,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libts_face_beautify_jni.so:system/vendor/lib/libts_face_beautify_jni.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libvideobokeh.so:system/vendor/lib/libvideobokeh.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libUBWC.so:system/vendor/lib64/libUBWC.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libblurbuster.so:system/vendor/lib64/libblurbuster.so \
