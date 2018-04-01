@@ -195,6 +195,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/nubia/msm8998-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -217,6 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/nubia/msm8998-common/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
@@ -246,6 +248,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/nubia/msm8998-common/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
@@ -257,6 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqseed3.so:system/vendor/lib/libqseed3.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqtigef.so:system/vendor/lib/libqtigef.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqvop-service.so:system/vendor/lib/libqvop-service.so \
+    vendor/nubia/msm8998-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
@@ -288,6 +292,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libspl.so:system/vendor/lib/libspl.so \
+    vendor/nubia/msm8998-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
@@ -542,11 +547,13 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
     vendor/nubia/msm8998-common/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/nubia/msm8998-common/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
+    vendor/nubia/msm8998-common/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libqti-utils.so:system/vendor/lib/libqti-utils.so \
+    vendor/nubia/msm8998-common/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
