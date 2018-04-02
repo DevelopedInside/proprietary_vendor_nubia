@@ -17,6 +17,14 @@
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/nubia/nx563j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-00-01.conf:system/etc/.tp/.thermal-mode-00-01.conf \
+    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-00-02.conf:system/etc/.tp/.thermal-mode-00-02.conf \
+    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-00-03.conf:system/etc/.tp/.thermal-mode-00-03.conf \
+    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-00-04.conf:system/etc/.tp/.thermal-mode-00-04.conf \
+    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-01-01.conf:system/etc/.tp/.thermal-mode-01-01.conf \
+    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-01-02.conf:system/etc/.tp/.thermal-mode-01-02.conf \
+    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-01-03.conf:system/etc/.tp/.thermal-mode-01-03.conf \
+    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-01-04.conf:system/etc/.tp/.thermal-mode-01-04.conf \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/nubia/nx563j/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
