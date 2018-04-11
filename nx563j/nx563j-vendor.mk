@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/etc/firmware/miniBoot.bin:system/etc/firmware/miniBoot.bin \
     vendor/nubia/nx563j/proprietary/etc/firmware/nubia_tp_jdi_fw.img:system/etc/firmware/nubia_tp_jdi_fw.img \
     vendor/nubia/nx563j/proprietary/etc/firmware/sub_alOtp.bin:system/etc/firmware/sub_alOtp.bin \
+    vendor/nubia/nx563j/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
     vendor/nubia/nx563j/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/nubia/nx563j/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/nubia/nx563j/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
