@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/etc/firmware/sub_alOtp.bin:system/etc/firmware/sub_alOtp.bin \
     vendor/nubia/nx563j/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
     vendor/nubia/nx563j/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
-    vendor/nubia/nx563j/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/nubia/nx563j/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/nubia/nx563j/proprietary/framework/ifaa_fingerprint.jar:system/framework/ifaa_fingerprint.jar \
     vendor/nubia/nx563j/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
