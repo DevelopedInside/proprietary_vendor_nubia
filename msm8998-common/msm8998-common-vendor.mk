@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/nubia/msm8998-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/nubia/msm8998-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/nubia/msm8998-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/nubia/msm8998-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/nubia/msm8998-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/nubia/msm8998-common/proprietary/bin/lowi-server:system/bin/lowi-server \
