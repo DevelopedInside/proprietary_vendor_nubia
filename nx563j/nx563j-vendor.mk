@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/libarcsoft_high_dynamic_range.so:system/lib/libarcsoft_high_dynamic_range.so \
     vendor/nubia/nx563j/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
     vendor/nubia/nx563j/proprietary/lib/libarcsoft_picauto.so:system/lib/libarcsoft_picauto.so \
-    vendor/nubia/nx563j/proprietary/lib/libbreathlighthal.so:system/lib/libbreathlighthal.so \
     vendor/nubia/nx563j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/nubia/nx563j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nubia/nx563j/proprietary/lib/libmmcamera_nubiacustpro.so:system/lib/libmmcamera_nubiacustpro.so \
@@ -111,11 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libarcsoft_beautyshot_video_algorithm.so:system/lib64/libarcsoft_beautyshot_video_algorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libarcsoft_dualcam_refocus.so:system/lib64/libarcsoft_dualcam_refocus.so \
     vendor/nubia/nx563j/proprietary/lib64/libarcsoft_night_shot.so:system/lib64/libarcsoft_night_shot.so \
-    vendor/nubia/nx563j/proprietary/lib64/libavcodec.so:system/lib64/libavcodec.so \
     vendor/nubia/nx563j/proprietary/lib64/libavfilter.so:system/lib64/libavfilter.so \
-    vendor/nubia/nx563j/proprietary/lib64/libavformat.so:system/lib64/libavformat.so \
-    vendor/nubia/nx563j/proprietary/lib64/libavutil.so:system/lib64/libavutil.so \
-    vendor/nubia/nx563j/proprietary/lib64/libbreathlighthal.so:system/lib64/libbreathlighthal.so \
     vendor/nubia/nx563j/proprietary/lib64/libbuffer_manager.so:system/lib64/libbuffer_manager.so \
     vendor/nubia/nx563j/proprietary/lib64/libdngcreator.so:system/lib64/libdngcreator.so \
     vendor/nubia/nx563j/proprietary/lib64/libfpc_fingerprints_service_ex.so:system/lib64/libfpc_fingerprints_service_ex.so \
@@ -165,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_preview.so:system/vendor/lib/libchromatix_csidtg_preview.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:system/vendor/lib/libchromatix_csidtg_zsl_preview.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_1080p_preview_3a.so:system/vendor/lib/libchromatix_imx318_1080p_preview_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_1080p_video_3a.so:system/vendor/lib/libchromatix_imx318_1080p_video_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_4k_preview_3a.so:system/vendor/lib/libchromatix_imx318_4k_preview_3a.so \
