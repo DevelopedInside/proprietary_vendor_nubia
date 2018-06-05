@@ -83,16 +83,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/libmmlib2d_interface.so:system/lib/libmmlib2d_interface.so \
     vendor/nubia/nx563j/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/nubia/nx563j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
-    vendor/nubia/nx563j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
-    vendor/nubia/nx563j/proprietary/lib/libnubia_servers.so:system/lib/libnubia_servers.so \
-    vendor/nubia/nx563j/proprietary/lib/libnubiaconfig.so:system/lib/libnubiaconfig.so \
     vendor/nubia/nx563j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/nx563j/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/nubia/nx563j/proprietary/lib64/hw/fingerprint.msm8998.so:system/lib64/hw/fingerprint.msm8998.so \
     vendor/nubia/nx563j/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/nubia/nx563j/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
     vendor/nubia/nx563j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
-    vendor/nubia/nx563j/proprietary/lib64/libAltek_Alignment.so:system/lib64/libAltek_Alignment.so \
     vendor/nubia/nx563j/proprietary/lib64/libArcsoftAlgorithm.so:system/lib64/libArcsoftAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libBigAperture.so:system/lib64/libBigAperture.so \
     vendor/nubia/nx563j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
@@ -122,11 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_delay_recorder.so:system/lib64/libnubia_delay_recorder.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_effect.so:system/lib64/libnubia_effect.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_gallery_player.so:system/lib64/libnubia_gallery_player.so \
-    vendor/nubia/nx563j/proprietary/lib64/libnubia_media_player.so:system/lib64/libnubia_media_player.so \
-    vendor/nubia/nx563j/proprietary/lib64/libnubia_runtime.so:system/lib64/libnubia_runtime.so \
-    vendor/nubia/nx563j/proprietary/lib64/libnubia_servers.so:system/lib64/libnubia_servers.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_trajectory.so:system/lib64/libnubia_trajectory.so \
-    vendor/nubia/nx563j/proprietary/lib64/libnubiaconfig.so:system/lib64/libnubiaconfig.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubiajpeg.so:system/lib64/libnubiajpeg.so \
     vendor/nubia/nx563j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
     vendor/nubia/nx563j/proprietary/lib64/libproductinfo.so:system/lib64/libproductinfo.so \
@@ -149,12 +141,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libIAFalSDE1.so:system/vendor/lib/libIAFalSDE1.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libIQ_Match_Lib.so:system/vendor/lib/libIQ_Match_Lib.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libSonyIMX318PdafLibrary.so:system/vendor/lib/libSonyIMX318PdafLibrary.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib/libUBWC.so:system/vendor/lib/libUBWC.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libactuator_ak7371_aux.so:system/vendor/lib/libactuator_ak7371_aux.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libalCMotion.so:system/vendor/lib/libalCMotion.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libblurbuster.so:system/vendor/lib/libblurbuster.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib/libcdsprpc.so:system/vendor/lib/libcdsprpc.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
@@ -459,13 +449,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libvideobokeh.so:system/vendor/lib/libvideobokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib64/libUBWC.so:system/vendor/lib64/libUBWC.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libblurbuster.so:system/vendor/lib64/libblurbuster.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib64/libcdsprpc.so:system/vendor/lib64/libcdsprpc.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libchromaflash.so:system/vendor/lib64/libchromaflash.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libdualcameraddm.so:system/vendor/lib64/libdualcameraddm.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libjni_blurbuster.so:system/vendor/lib64/libjni_blurbuster.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libjni_chromaflash.so:system/vendor/lib64/libjni_chromaflash.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib64/libjni_clearsight.so:system/vendor/lib64/libjni_clearsight.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libjni_dualcamera.so:system/vendor/lib64/libjni_dualcamera.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libjni_makeupV2.so:system/vendor/lib64/libjni_makeupV2.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libjni_optizoom.so:system/vendor/lib64/libjni_optizoom.so \
