@@ -430,6 +430,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libts_face_beautify_jni.so:system/vendor/lib/libts_face_beautify_jni.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libvideobokeh.so:system/vendor/lib/libvideobokeh.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libblurbuster.so:system/vendor/lib64/libblurbuster.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libchromaflash.so:system/vendor/lib64/libchromaflash.so \
