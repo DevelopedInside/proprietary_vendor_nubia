@@ -142,12 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libactuator_ak7371_aux.so:system/vendor/lib/libactuator_ak7371_aux.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libalCMotion.so:system/vendor/lib/libalCMotion.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libblurbuster.so:system/vendor/lib/libblurbuster.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libcdsprpc.so:system/vendor/lib/libcdsprpc.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_preview.so:system/vendor/lib/libchromatix_csidtg_preview.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:system/vendor/lib/libchromatix_csidtg_zsl_preview.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_1080p_preview_3a.so:system/vendor/lib/libchromatix_imx318_1080p_preview_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_1080p_video_3a.so:system/vendor/lib/libchromatix_imx318_1080p_video_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_4k_preview_3a.so:system/vendor/lib/libchromatix_imx318_4k_preview_3a.so \
@@ -326,7 +322,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libmmcamera_bokeh.so:system/vendor/lib/libmmcamera_bokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libmmcamera_edgesmooth_lib.so:system/vendor/lib/libmmcamera_edgesmooth_lib.so \
@@ -434,6 +429,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libChamomilePA.so:system/vendor/lib64/libChamomilePA.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libblurbuster.so:system/vendor/lib64/libblurbuster.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib64/libcdsprpc.so:system/vendor/lib64/libcdsprpc.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libchromaflash.so:system/vendor/lib64/libchromaflash.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libdualcameraddm.so:system/vendor/lib64/libdualcameraddm.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libjni_blurbuster.so:system/vendor/lib64/libjni_blurbuster.so \
