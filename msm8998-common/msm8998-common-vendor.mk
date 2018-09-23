@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/nubia/msm8998-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/nubia/msm8998-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/nubia/msm8998-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/nubia/msm8998-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/nubia/msm8998-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/nubia/msm8998-common/proprietary/bin/lowi-server:system/bin/lowi-server \
@@ -38,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/nubia/msm8998-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/nubia/msm8998-common/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/nubia/msm8998-common/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/nubia/msm8998-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/nubia/msm8998-common/proprietary/bin/qvop-daemon:system/bin/qvop-daemon \
     vendor/nubia/msm8998-common/proprietary/bin/radish:system/bin/radish \
@@ -71,33 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/nubia/msm8998-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/nubia/msm8998-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a540_zap.b00:system/etc/firmware/a540_zap.b00 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a540_zap.b01:system/etc/firmware/a540_zap.b01 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a540_zap.b02:system/etc/firmware/a540_zap.b02 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a540_zap.elf:system/etc/firmware/a540_zap.elf \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/a540_zap.mdt:system/etc/firmware/a540_zap.mdt \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/ipa_fws.b00:system/etc/firmware/ipa_fws.b00 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/ipa_fws.b01:system/etc/firmware/ipa_fws.b01 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/ipa_fws.b02:system/etc/firmware/ipa_fws.b02 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/ipa_fws.b03:system/etc/firmware/ipa_fws.b03 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/ipa_fws.b04:system/etc/firmware/ipa_fws.b04 \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/ipa_fws.mdt:system/etc/firmware/ipa_fws.mdt \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/nubia/msm8998-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/nubia/msm8998-common/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/nubia/msm8998-common/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/nubia/msm8998-common/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
@@ -226,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/nubia/msm8998-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
@@ -399,7 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/nubia/msm8998-common/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/nubia/msm8998-common/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \

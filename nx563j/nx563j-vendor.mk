@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/nubia/nx563j/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/nubia/nx563j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-00-01.conf:system/etc/.tp/.thermal-mode-00-01.conf \
     vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-00-02.conf:system/etc/.tp/.thermal-mode-00-02.conf \
@@ -38,6 +39,25 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/etc/camera/s5k3p3_chromatix.xml:system/etc/camera/s5k3p3_chromatix.xml \
     vendor/nubia/nx563j/proprietary/etc/firmware/SCTable.asb:system/etc/firmware/SCTable.asb \
     vendor/nubia/nx563j/proprietary/etc/firmware/TBM_D2.bin:system/etc/firmware/TBM_D2.bin \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a540_zap.b00:system/etc/firmware/a540_zap.b00 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a540_zap.b01:system/etc/firmware/a540_zap.b01 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a540_zap.b02:system/etc/firmware/a540_zap.b02 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a540_zap.elf:system/etc/firmware/a540_zap.elf \
+    vendor/nubia/nx563j/proprietary/etc/firmware/a540_zap.mdt:system/etc/firmware/a540_zap.mdt \
     vendor/nubia/nx563j/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/nubia/nx563j/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
     vendor/nubia/nx563j/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -48,6 +68,14 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/nubia/nx563j/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/nubia/nx563j/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/nubia/nx563j/proprietary/etc/firmware/ipa_fws.b00:system/etc/firmware/ipa_fws.b00 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/ipa_fws.b01:system/etc/firmware/ipa_fws.b01 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/ipa_fws.b02:system/etc/firmware/ipa_fws.b02 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/ipa_fws.b03:system/etc/firmware/ipa_fws.b03 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/ipa_fws.b04:system/etc/firmware/ipa_fws.b04 \
+    vendor/nubia/nx563j/proprietary/etc/firmware/ipa_fws.mdt:system/etc/firmware/ipa_fws.mdt \
+    vendor/nubia/nx563j/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/nubia/nx563j/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/nubia/nx563j/proprietary/etc/firmware/main_alOtp.bin:system/etc/firmware/main_alOtp.bin \
     vendor/nubia/nx563j/proprietary/etc/firmware/miniBoot.bin:system/etc/firmware/miniBoot.bin \
     vendor/nubia/nx563j/proprietary/etc/firmware/nubia_tp_jdi_fw.img:system/etc/firmware/nubia_tp_jdi_fw.img \
@@ -55,6 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
     vendor/nubia/nx563j/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/nubia/nx563j/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
+    vendor/nubia/nx563j/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
+    vendor/nubia/nx563j/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/nubia/nx563j/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
     vendor/nubia/nx563j/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/nubia/nx563j/proprietary/lib/hw/fingerprint.msm8998.so:system/lib/hw/fingerprint.msm8998.so \
