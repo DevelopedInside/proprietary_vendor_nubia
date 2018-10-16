@@ -85,7 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/nubia/nx563j/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/nubia/nx563j/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/nubia/nx563j/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
+    vendor/nubia/nx563j/proprietary/lib/hw/camera.vendor.msm8998.so:system/lib/hw/camera.vendor.msm8998.so \
     vendor/nubia/nx563j/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/nubia/nx563j/proprietary/lib/hw/fingerprint.msm8998.so:system/lib/hw/fingerprint.msm8998.so \
     vendor/nubia/nx563j/proprietary/lib/libNubiaImageAlgorithm.so:system/lib/libNubiaImageAlgorithm.so \
