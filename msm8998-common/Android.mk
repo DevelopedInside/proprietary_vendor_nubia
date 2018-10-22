@@ -31,10 +31,70 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libdsi_netctrl
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libdsi_netctrl.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libdsi_netctrl.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libgpustats
 LOCAL_MODULE_OWNER := nubia
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libgpustats.so
 LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libgpustats.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libidl
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libidl.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libidl.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_cci
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqmi_cci.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqmi_cci.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_common_so
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqmi_common_so.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqmi_common_so.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmiservices
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqmiservices.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqmiservices.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -247,6 +307,24 @@ LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := dsi_config
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES := proprietary/etc/data/dsi_config.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX := .xml
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := netmgr_config
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES := proprietary/etc/data/netmgr_config.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
 endif
