@@ -309,24 +309,6 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := dsi_config
-LOCAL_MODULE_OWNER := nubia
-LOCAL_SRC_FILES := proprietary/etc/data/dsi_config.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := netmgr_config
-LOCAL_MODULE_OWNER := nubia
-LOCAL_SRC_FILES := proprietary/etc/data/netmgr_config.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
 endif
 
 ifneq ($(TARGET_HAVE_QC_PERF),true)
