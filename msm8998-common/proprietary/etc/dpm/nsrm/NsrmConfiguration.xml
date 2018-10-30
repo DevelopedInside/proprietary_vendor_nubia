@@ -27,10 +27,9 @@
     <EAQSRDT>60</EAQSRDT>
     <!--Mode to indicate how processes which share the same UID should be
         handled-->
-    <SharedUIDMode>Aggressive</SharedUIDMode>
+    <SharedUIDMode>Conservative</SharedUIDMode>
     <!--List of applications which to apply Nsrm to-->
     <AppList Type="Exclusion">
-    <AppName>com.mobiletools.systemhelper</AppName>
     </AppList>
     <!-- Example MCC_MNC configuration
          NTO values are configured in seconds
