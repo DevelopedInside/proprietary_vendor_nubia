@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/nubia/nx563j/proprietary/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
     vendor/nubia/nx563j/proprietary/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
+    vendor/nubia/nx563j/proprietary/lib64/com.fingerprints.extension@1.0.so:system/lib64/com.fingerprints.extension@1.0.so \
     vendor/nubia/nx563j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libArcsoftAlgorithm.so:system/lib64/libArcsoftAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libBigAperture.so:system/lib64/libBigAperture.so \
@@ -111,6 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
     vendor/nubia/nx563j/proprietary/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
     vendor/nubia/nx563j/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
+    vendor/nubia/nx563j/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint.fpc@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint.fpc@2.1-service \
     vendor/nubia/nx563j/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/nubia/nx563j/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/nubia/nx563j/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -125,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/etc/firmware/SCTable.asb:system/vendor/etc/firmware/SCTable.asb \
     vendor/nubia/nx563j/proprietary/vendor/etc/firmware/TBM_D2.bin:system/vendor/etc/firmware/TBM_D2.bin \
     vendor/nubia/nx563j/proprietary/vendor/etc/firmware/miniBoot.bin:system/vendor/etc/firmware/miniBoot.bin \
+    vendor/nubia/nx563j/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint.fpc@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint.fpc@2.1-service.rc \
     vendor/nubia/nx563j/proprietary/vendor/firmware/BCM20797A1_001.002.015.2562.0011_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20797A1_001.002.015.2562.0011_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/BCM20797B0_002.001.043.2562.0007_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0007_I2C_configdata.ncd:system/vendor/firmware/BCM20797B0_002.001.043.2562.0007_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0007_I2C_configdata.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/BCM20797B0_002.001.043.2562.0010_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0010_I2C_configdata.ncd:system/vendor/firmware/BCM20797B0_002.001.043.2562.0010_Generic_I2C_NCD_Unsigned_BCM20797B0_002.001.043.2562.0010_I2C_configdata.ncd \
@@ -150,7 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
     vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
     vendor/nubia/nx563j/proprietary/vendor/framework/com.fingerprints.extension.jar:system/vendor/framework/com.fingerprints.extension.jar \
-    vendor/nubia/nx563j/proprietary/vendor/lib/hw/camera.msm8998.so:system/vendor/lib/hw/camera.msm8998.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/hw/camera.vendor.msm8998.so:system/vendor/lib/hw/camera.vendor.msm8998.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/hw/consumerir.default.so:system/vendor/lib/hw/consumerir.default.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libAltek_AF.so:system/vendor/lib/libAltek_AF.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
@@ -305,6 +308,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:system/vendor/lib/libchromatix_s5k3p3_postproc.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libdualcameraddm.so:system/vendor/lib/libdualcameraddm.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libhal_dbg.so:system/vendor/lib/libhal_dbg.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -426,6 +430,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libteeclientjni.so:system/vendor/lib/libteeclientjni.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libvideobokeh.so:system/vendor/lib/libvideobokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so \
@@ -447,6 +452,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/liboptizoom.so:system/vendor/lib64/liboptizoom.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libseemore.so:system/vendor/lib64/libseemore.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib64/libteeclientjni.so:system/vendor/lib64/libteeclientjni.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libubifocus.so:system/vendor/lib64/libubifocus.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libvideobokeh.so:system/vendor/lib64/libvideobokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
