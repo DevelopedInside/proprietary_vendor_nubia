@@ -24,9 +24,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-01-02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-01-02.conf \
     vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-01-03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-01-03.conf \
     vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-01-04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-01-04.conf \
-    vendor/nubia/nx563j/proprietary/etc/firmware/main_alOtp.bin:system/etc/firmware/main_alOtp.bin \
+    vendor/nubia/nx563j/proprietary/vendor/firmware/main_alOtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/main_alOtp.bin \
     vendor/nubia/nx563j/proprietary/vendor/firmware/nubia_tp_jdi_fw.img:$(TARGET_COPY_OUT_VENDOR)/firmware/nubia_tp_jdi_fw.img \
-    vendor/nubia/nx563j/proprietary/etc/firmware/sub_alOtp.bin:system/etc/firmware/sub_alOtp.bin \
+    vendor/nubia/nx563j/proprietary/vendor/firmware/sub_alOtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sub_alOtp.bin \
     vendor/nubia/nx563j/proprietary/vendor/firmware/tas2555_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2555_uCDSP.bin \
     vendor/nubia/nx563j/proprietary/vendor/etc/libnfc-brcm-20797b00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm-20797b00.conf \
     vendor/nubia/nx563j/proprietary/vendor/etc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
@@ -47,7 +47,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_night_shot.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libarcsoft_picauto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picauto.so \
+    vendor/nubia/nx563j/proprietary/lib/libblurbuster.so:system/lib/libblurbuster.so \
     vendor/nubia/nx563j/proprietary/lib/libfiltergenerator.so:system/lib/libfiltergenerator.so \
+    vendor/nubia/nx563j/proprietary/lib/libhazebuster.so:system/lib/libhazebuster.so \
     vendor/nubia/nx563j/proprietary/lib/libjni_blurbuster.so:system/lib/libjni_blurbuster.so \
     vendor/nubia/nx563j/proprietary/lib/libjni_chromaflash.so:system/lib/libjni_chromaflash.so \
     vendor/nubia/nx563j/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
@@ -86,8 +88,11 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_night_shot.so \
     vendor/nubia/nx563j/proprietary/lib64/libavfilter.so:system/lib64/libavfilter.so \
+    vendor/nubia/nx563j/proprietary/lib64/libblurbuster.so:system/lib64/libblurbuster.so \
     vendor/nubia/nx563j/proprietary/lib64/libbuffer_manager.so:system/lib64/libbuffer_manager.so \
     vendor/nubia/nx563j/proprietary/lib64/libdngcreator.so:system/lib64/libdngcreator.so \
+    vendor/nubia/nx563j/proprietary/lib64/libfiltergenerator.so:system/lib64/libfiltergenerator.so \
+    vendor/nubia/nx563j/proprietary/lib64/libhazebuster.so:system/lib64/libhazebuster.so \
     vendor/nubia/nx563j/proprietary/lib64/libhistutil.so:system/lib64/libhistutil.so \
     vendor/nubia/nx563j/proprietary/lib64/libjni_blurbuster.so:system/lib64/libjni_blurbuster.so \
     vendor/nubia/nx563j/proprietary/lib64/libjni_chromaflash.so:system/lib64/libjni_chromaflash.so \
