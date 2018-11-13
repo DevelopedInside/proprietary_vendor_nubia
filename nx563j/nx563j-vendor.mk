@@ -31,15 +31,15 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/etc/libnfc-brcm-20797b00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm-20797b00.conf \
     vendor/nubia/nx563j/proprietary/vendor/etc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
     vendor/nubia/nx563j/proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
-    vendor/nubia/nx563j/proprietary/lib/libNubiaImageAlgorithm.so:system/lib/libNubiaImageAlgorithm.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libNubiaImageAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNubiaImageAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib/libPrettyWaterMark.so:system/lib/libPrettyWaterMark.so \
     vendor/nubia/nx563j/proprietary/lib/libalDU_Utility.so:system/lib/libalDU_Utility.so \
-    vendor/nubia/nx563j/proprietary/lib/libalParseOTP.so:system/lib/libalParseOTP.so \
-    vendor/nubia/nx563j/proprietary/lib/libalRnB.so:system/lib/libalRnB.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libalParseOTP.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalParseOTP.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libalRnB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalRnB.so \
     vendor/nubia/nx563j/proprietary/lib/libalRnBLV.so:system/lib/libalRnBLV.so \
-    vendor/nubia/nx563j/proprietary/lib/libalSDE2.so:system/lib/libalSDE2.so \
-    vendor/nubia/nx563j/proprietary/lib/libalSDK.so:system/lib/libalSDK.so \
-    vendor/nubia/nx563j/proprietary/lib/libalSPE.so:system/lib/libalSPE.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libalSDE2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalSDE2.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libalSDK.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalSDK.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libalSPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalSPE.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libarcsoft_beautyshot_image_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot_image_algorithm.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libarcsoft_beautyshot_video_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot_video_algorithm.so \
@@ -61,9 +61,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib/libjni_stillmore.so:system/lib/libjni_stillmore.so \
     vendor/nubia/nx563j/proprietary/lib/libjni_trackingfocus.so:system/lib/libjni_trackingfocus.so \
     vendor/nubia/nx563j/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
-    vendor/nubia/nx563j/proprietary/lib/libmmcamera_nubiacustpro.so:system/lib/libmmcamera_nubiacustpro.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libmmcamera_nubiacustpro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_nubiacustpro.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
-    vendor/nubia/nx563j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libnubia_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnubia_effect.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libts_detected_face_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_jni.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libts_face_beautify_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_jni.so \
@@ -71,17 +71,17 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/nubia/nx563j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libArcsoftAlgorithm.so:system/lib64/libArcsoftAlgorithm.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_night_shot.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib64/libArcsoftAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libArcsoftAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libBigAperture.so:system/lib64/libBigAperture.so \
     vendor/nubia/nx563j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libDualCamera_Calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDualCamera_Calibration.so \
     vendor/nubia/nx563j/proprietary/lib64/libIndependenceUtil.so:system/lib64/libIndependenceUtil.so \
-    vendor/nubia/nx563j/proprietary/lib64/libNubiaImageAlgorithm.so:system/lib64/libNubiaImageAlgorithm.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib64/libNubiaImageAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNubiaImageAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libPrettyWaterMark.so:system/lib64/libPrettyWaterMark.so \
-    vendor/nubia/nx563j/proprietary/lib64/libalParseOTP.so:system/lib64/libalParseOTP.so \
-    vendor/nubia/nx563j/proprietary/lib64/libalRnB.so:system/lib64/libalRnB.so \
-    vendor/nubia/nx563j/proprietary/lib64/libalSDE2.so:system/lib64/libalSDE2.so \
-    vendor/nubia/nx563j/proprietary/lib64/libalSPE.so:system/lib64/libalSPE.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib64/libalParseOTP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalParseOTP.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib64/libalRnB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalRnB.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib64/libalSDE2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalSDE2.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib64/libalSPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalSPE.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_beautyshot_image_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot_image_algorithm.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_beautyshot_video_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot_video_algorithm.so \
@@ -110,7 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libmulti_exposure.so:system/lib64/libmulti_exposure.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_clone.so:system/lib64/libnubia_clone.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_delay_recorder.so:system/lib64/libnubia_delay_recorder.so \
-    vendor/nubia/nx563j/proprietary/lib64/libnubia_effect.so:system/lib64/libnubia_effect.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib64/libnubia_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubia_effect.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_trajectory.so:system/lib64/libnubia_trajectory.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubiajpeg.so:system/lib64/libnubiajpeg.so \
     vendor/nubia/nx563j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
