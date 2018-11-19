@@ -682,6 +682,7 @@ PRODUCT_PACKAGES += \
     embms \
     ims \
     imssettings \
+    uceShimService \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
