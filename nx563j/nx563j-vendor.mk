@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/nubia/nx563j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
-    vendor/nubia/nx563j/proprietary/lib64/libArcsoftAlgorithm.so:system/lib64/libArcsoftAlgorithm.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libArcsoftAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libArcsoftAlgorithm.so \
     vendor/nubia/nx563j/proprietary/lib64/libBigAperture.so:system/lib64/libBigAperture.so \
     vendor/nubia/nx563j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
@@ -87,7 +86,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_beautyshot_video_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot_video_algorithm.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_night_shot.so \
+    vendor/nubia/nx563j/proprietary/lib64/libavcodec.so:system/lib64/libavcodec.so \
     vendor/nubia/nx563j/proprietary/lib64/libavfilter.so:system/lib64/libavfilter.so \
+    vendor/nubia/nx563j/proprietary/lib64/libavformat.so:system/lib64/libavformat.so \
+    vendor/nubia/nx563j/proprietary/lib64/libavutil.so:system/lib64/libavutil.so \
     vendor/nubia/nx563j/proprietary/lib64/libblurbuster.so:system/lib64/libblurbuster.so \
     vendor/nubia/nx563j/proprietary/lib64/libbuffer_manager.so:system/lib64/libbuffer_manager.so \
     vendor/nubia/nx563j/proprietary/lib64/libdngcreator.so:system/lib64/libdngcreator.so \
@@ -111,10 +113,13 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_clone.so:system/lib64/libnubia_clone.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_delay_recorder.so:system/lib64/libnubia_delay_recorder.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libnubia_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubia_effect.so \
+    vendor/nubia/nx563j/proprietary/lib64/libnubia_media_player.so:system/lib64/libnubia_media_player.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubia_trajectory.so:system/lib64/libnubia_trajectory.so \
     vendor/nubia/nx563j/proprietary/lib64/libnubiajpeg.so:system/lib64/libnubiajpeg.so \
     vendor/nubia/nx563j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
     vendor/nubia/nx563j/proprietary/lib64/libproductinfo.so:system/lib64/libproductinfo.so \
+    vendor/nubia/nx563j/proprietary/lib64/libswresample.so:system/lib64/libswresample.so \
+    vendor/nubia/nx563j/proprietary/lib64/libswscale.so:system/lib64/libswscale.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libts_detected_face_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_detected_face_jni.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libts_face_beautify_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_jni.so \
