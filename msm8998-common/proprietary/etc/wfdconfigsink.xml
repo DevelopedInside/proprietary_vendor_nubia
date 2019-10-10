@@ -22,7 +22,7 @@
         <AudioAAC>
             <Name>AAC</Name>
             <Valid>1</Valid>
-            <Channels>2</Channels>            <!-- modifyed by ztemt frome 6 to 2 -->
+            <Channels>6</Channels>
             <SamplingFreq>48000</SamplingFreq>
             <Latency>0</Latency>
         </AudioAAC>
@@ -240,10 +240,9 @@
         -->
         <UIBC>
             <UIBCValid>1</UIBCValid>            <!-- 0/1 UIBC supported or not -->
-            <M14Support>0</M14Support>          <!-- 0/1 M14 supported or not -->
             <InputCategory>
                 <Generic>1</Generic>            <!-- 0/1 - support generic or not -->
-                <HID>0</HID>                    <!-- 0/1 - NUBIA MODIFY to 0:support HID or not -->
+                <HID>1</HID>                    <!-- 0/1 - support HID or not -->
             </InputCategory>
 
             <!--  Supported input events  -->
@@ -778,13 +777,6 @@
         This adds audio track latency to renderer to improve AV sync during BT use case.
     -->
     <EnableAudioTrackLatency>0</EnableAudioTrackLatency>
-
-    <!--
-        To Configure maximum capability for frame rate
-        of Max resolution supported.
-        It will be changed in code also based on target.
-    -->
-    <MaxFpsSupported>60</MaxFpsSupported>
 
     <!--
         Make audio AV Sync drop window configurable item.Sometimes if wlan
