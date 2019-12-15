@@ -143,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_4k_preview_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_4k_video_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_a3_3dtest_mode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_a3_3dtest_mode.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_a3_arcsoft_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_a3_arcsoft_bokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_a3_bokeh_mode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_a3_bokeh_mode.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_a3_elec_aper_hand.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_a3_elec_aper_hand.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_a3_electron_aperture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_a3_electron_aperture.so \
@@ -152,15 +153,18 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_a3_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_a3_panorama.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_a3_profession_mode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_a3_profession_mode.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_a3_startrack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_a3_startrack.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_arcsoft_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_arcsoft_bokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_bokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_common.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_common_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_common_bokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_common_dng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_common_dng.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_common_iso128.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_common_iso128.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_common_iso128_dng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_common_iso128_dng.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_cpp_arcsoft_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_arcsoft_bokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_cpp_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_bokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_cpp_electron_aperture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_electron_aperture.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_hfr_120.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_hfr_240.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_hfr_60.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_cpp_iso128_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_iso128_preview.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_cpp_iso128_preview_dng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_cpp_iso128_preview_dng.so \
@@ -192,6 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hdr_video_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hfr_120.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hfr_120_3a.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hfr_240.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hfr_60.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_hfr_60_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_isp_electron_aperture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_isp_electron_aperture.so \
@@ -209,7 +214,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_snapshot_hdr.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_video_4k.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx318_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx318_video_hdr.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_1080p_preview_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_1080p_video_3a.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_4k_preview_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_4k_video_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_a3_3dtest_mode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_a3_3dtest_mode.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_a3_elec_aper_hand.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_a3_elec_aper_hand.so \
@@ -225,10 +232,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_common_iso128.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_common_iso128.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_electron_aperture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_electron_aperture.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_hfr_120.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_hfr_240.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_hfr_60.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_iso128_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_iso128_preview.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_iso128_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_iso128_snapshot.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_light_painting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_light_painting.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_liveshot.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_microspur_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_microspur_snapshot.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_mtf_denoise.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_mtf_denoise.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_panorama.so \
@@ -244,11 +253,15 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_cpp_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_cpp_video_hdr.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_default_preview_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_default_video.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_default_video_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_fullsize_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_fullsize_preview_3a.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_fullsize_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_fullsize_video_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_hdr_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hdr_snapshot_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hdr_video_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_120.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_120_3a.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_240.so \
+    vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_240_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_60.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_hfr_60_3a.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libchromatix_imx362_isp_electron_aperture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx362_isp_electron_aperture.so \
