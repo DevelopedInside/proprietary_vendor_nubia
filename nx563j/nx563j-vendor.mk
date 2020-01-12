@@ -1,4 +1,4 @@
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2017-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -47,14 +47,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libnubia_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnubia_effect.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/vendor.nubia.ifaa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nubia.ifaa@1.0.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
-    vendor/nubia/nx563j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libArcsoftAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libArcsoftAlgorithm.so \
-    vendor/nubia/nx563j/proprietary/lib64/libBigAperture.so:system/lib64/libBigAperture.so \
-    vendor/nubia/nx563j/proprietary/lib64/libBuffer.so:system/lib64/libBuffer.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libDualCamera_Calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDualCamera_Calibration.so \
-    vendor/nubia/nx563j/proprietary/lib64/libIndependenceUtil.so:system/lib64/libIndependenceUtil.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libNubiaImageAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNubiaImageAlgorithm.so \
-    vendor/nubia/nx563j/proprietary/lib64/libPrettyWaterMark.so:system/lib64/libPrettyWaterMark.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libalParseOTP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalParseOTP.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libalRnB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalRnB.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libalSDE2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalSDE2.so \
@@ -65,26 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_shot.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_night_shot.so \
-    vendor/nubia/nx563j/proprietary/lib64/libavcodec.so:system/lib64/libavcodec.so \
-    vendor/nubia/nx563j/proprietary/lib64/libavfilter.so:system/lib64/libavfilter.so \
-    vendor/nubia/nx563j/proprietary/lib64/libavformat.so:system/lib64/libavformat.so \
-    vendor/nubia/nx563j/proprietary/lib64/libavutil.so:system/lib64/libavutil.so \
-    vendor/nubia/nx563j/proprietary/lib64/libbuffer_manager.so:system/lib64/libbuffer_manager.so \
-    vendor/nubia/nx563j/proprietary/lib64/libdngcreator.so:system/lib64/libdngcreator.so \
-    vendor/nubia/nx563j/proprietary/lib64/libhistutil.so:system/lib64/libhistutil.so \
-    vendor/nubia/nx563j/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
-    vendor/nubia/nx563j/proprietary/lib64/libmulti_exposure.so:system/lib64/libmulti_exposure.so \
-    vendor/nubia/nx563j/proprietary/lib64/libnubia_clone.so:system/lib64/libnubia_clone.so \
-    vendor/nubia/nx563j/proprietary/lib64/libnubia_delay_recorder.so:system/lib64/libnubia_delay_recorder.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libnubia_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnubia_effect.so \
-    vendor/nubia/nx563j/proprietary/lib64/libnubia_media_player.so:system/lib64/libnubia_media_player.so \
-    vendor/nubia/nx563j/proprietary/lib64/libnubia_trajectory.so:system/lib64/libnubia_trajectory.so \
-    vendor/nubia/nx563j/proprietary/lib64/libnubiajpeg.so:system/lib64/libnubiajpeg.so \
-    vendor/nubia/nx563j/proprietary/lib64/libpanoramahelper.so:system/lib64/libpanoramahelper.so \
-    vendor/nubia/nx563j/proprietary/lib64/libproductinfo.so:system/lib64/libproductinfo.so \
-    vendor/nubia/nx563j/proprietary/lib64/libswresample.so:system/lib64/libswresample.so \
-    vendor/nubia/nx563j/proprietary/lib64/libswscale.so:system/lib64/libswscale.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/vendor.nubia.ifaa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nubia.ifaa@1.0.so \
     vendor/nubia/nx563j/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint.fpc@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint.fpc@2.1-service \
     vendor/nubia/nx563j/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
