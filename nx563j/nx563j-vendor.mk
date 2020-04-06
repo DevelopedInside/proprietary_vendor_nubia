@@ -19,14 +19,14 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-00-01.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/.tp/.thermal-mode-00-01.conf \
-    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-00-02.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/.tp/.thermal-mode-00-02.conf \
-    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-00-03.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/.tp/.thermal-mode-00-03.conf \
-    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-00-04.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/.tp/.thermal-mode-00-04.conf \
-    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-01-01.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/.tp/.thermal-mode-01-01.conf \
-    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-01-02.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/.tp/.thermal-mode-01-02.conf \
-    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-01-03.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/.tp/.thermal-mode-01-03.conf \
-    vendor/nubia/nx563j/proprietary/etc/.tp/.thermal-mode-01-04.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/.tp/.thermal-mode-01-04.conf \
+    vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-00-01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-00-01.conf \
+    vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-00-02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-00-02.conf \
+    vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-00-03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-00-03.conf \
+    vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-00-04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-00-04.conf \
+    vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-01-01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-01-01.conf \
+    vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-01-02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-01-02.conf \
+    vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-01-03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-01-03.conf \
+    vendor/nubia/nx563j/proprietary/vendor/etc/.tp/.thermal-mode-01-04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal-mode-01-04.conf \
     vendor/nubia/nx563j/proprietary/vendor/firmware/nubia_tp_jdi_fw.img:$(TARGET_COPY_OUT_VENDOR)/firmware/nubia_tp_jdi_fw.img \
     vendor/nubia/nx563j/proprietary/vendor/firmware/tas2555_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2555_uCDSP.bin \
     vendor/nubia/nx563j/proprietary/vendor/etc/libnfc-brcm-20797b00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm-20797b00.conf \
