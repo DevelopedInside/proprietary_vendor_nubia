@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/firmware/BCM20797B0_002.001.043.2564.0002_Generic_NCD_Unsigned_configdata.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM20797B0_002.001.043.2564.0002_Generic_NCD_Unsigned_configdata.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/BCM20797B0_002.001.043.2565.0005_Generic_NCD_Unsigned_configdata.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM20797B0_002.001.043.2565.0005_Generic_NCD_Unsigned_configdata.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/Generic_unsigned.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned.ncd \
+    vendor/nubia/nx563j/proprietary/vendor/firmware/Generic_unsigned_1021_1.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned_1021_1.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/Generic_unsigned_119_1.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned_119_1.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/Generic_unsigned_222_1.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned_222_1.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/Generic_unsigned_512_3.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned_512_3.ncd \
