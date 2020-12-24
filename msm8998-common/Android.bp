@@ -102,26 +102,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "embms",
-	owner: "nubia",
-	apk: "proprietary/app/embms/embms.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "imssettings",
-	owner: "nubia",
-	apk: "proprietary/app/imssettings/imssettings.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "WfdService",
 	owner: "nubia",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
