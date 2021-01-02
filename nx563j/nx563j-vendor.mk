@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/nubia/nx563j/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/nubia/nx563j/proprietary/vendor/lib/hw/camera.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8998.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/hw/consumerir.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.msm8998.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libAltek_AF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAltek_AF.so \
@@ -389,7 +388,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeclientjni.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/vendor.nubia.ifaa@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nubia.ifaa@1.0-impl.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib64/com.fingerprints.extension@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0_vendor.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/hw/consumerir.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.msm8998.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/hw/nfc_nci.bcm2079x.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.bcm2079x.msm8998.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
