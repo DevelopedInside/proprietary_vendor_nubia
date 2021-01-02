@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/firmware/nubia_tp_jdi_fw.img:$(TARGET_COPY_OUT_VENDOR)/firmware/nubia_tp_jdi_fw.img \
     vendor/nubia/nx563j/proprietary/vendor/firmware/tas2555_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2555_uCDSP.bin \
     vendor/nubia/nx563j/proprietary/vendor/etc/libnfc-brcm-20797b00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm-20797b00.conf \
-    vendor/nubia/nx563j/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/nubia/nx563j/proprietary/vendor/lib/libNubiaImageAlgorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNubiaImageAlgorithm.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libalParseOTP.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalParseOTP.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libalRnB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalRnB.so \
