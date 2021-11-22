@@ -1,0 +1,35 @@
+#! /bin/sh
+#
+#Copyright (c) 2019 Qualcomm Technologies, Inc.
+#All Rights Reserved.
+#Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+#Copyright (c) 2013-2018, The Linux Foundation. All rights reserved.
+#
+
+on post-fs-data
+	mkdir /data/vendor/thermal 0777 system system
+
+service thermal-engine /vendor/bin/thermal-engine
+	class main
+	user root
+	socket thermal-send-client stream 0666 system system
+	socket thermal-recv-client stream 0666 system system
+	socket thermal-recv-passive-client stream 0666 system system
+	socket thermal-send-rule stream 0666 system system
+	group root system
+
+on property:sys.cpu.mode_type=*
+	setprop vendor.cpu.mode_type ${sys.cpu.mode_type}
+
+on property:sys.fan.thermal_auto=*
+	setprop vendor.fan.thermal_auto ${sys.fan.thermal_auto}
+
+on property:persist.sys.game.super.enable=*
+	setprop vendor.game.super.enable ${persist.sys.game.super.enable}
+
+on property:persist.vendor.nubiaconfig.nubia_thermal_feature.version=*
+    setprop vendor.nubiaconfig.thermal_version ${persist.vendor.nubiaconfig.nubia_thermal_feature.version}
+
+on property:ro.vendor.nubiaconfig.nubia_thermal_feature=*
+    setprop vendor.nubiaconfig.thermal_feature ${ro.vendor.nubiaconfig.nubia_thermal_feature}
